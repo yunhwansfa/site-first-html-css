@@ -1,0 +1,121 @@
+body {
+    background-color: #a3d5d3;
+    background: rgb(0,0,0);
+    color: rgb(255,255,255);
+    font-family: Calibri, Impact, fantasy;
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+    text-transform: capitalize;
+    text-decoration: underline;
+  }
+  
+  a{
+    color:yellow;
+    text-decoration: none;
+  }
+  
+  a:hover{
+    text-decoration: underline;
+    color: white;
+  }
+  
+  p{
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    word-spacing: 5px;
+    text-align: center;
+    text-indent: 50px;
+  }
+  
+  p:first-line{
+    text-transform: uppercase;
+  }
+  
+  p:first-letter {
+    color: red:
+     font-size: 30px;
+  }
+  a:visited{
+    color:green;
+  }
+  
+  
+  ul{
+    list-style-type: cicle;
+    list-style-type: none;
+    list-style-type: square;
+  }
+  
+  ol {
+    list-style-type: decimal-leading-zero;
+    list-style-type: decimal;
+    list-style-type: lower-alpha;
+    list-style-type: upper-alpha;
+    list-style-type: lower-roman;    
+    list-style-type: upper-roman;
+  }
+  
+  
+  ol ol {
+      list-style-type: lower-roman;    
+  }
+  
+  
+  even { 
+    color: black;
+  }
+  
+  table{
+    cursor: pointer;
+  /*   float: left; */
+  }
+  
+  tr:hover {
+    opacity: 0.5;
+  }
+  
+  td:hover{
+    background: yellow;
+  }         
+  
+  label{
+   display: block;
+    clear: both;
+    width: 200px;
+    float: left;
+    text-allign: right;
+  }
+  
+  input{
+  /* display: block; */
+  width: 200px;  
+  float: right;
+  text-allgn: left;
+  }
+  
+  textarea{
+    clear: both
+    width: 100px;
+    height: 100px
+  }
+  
+  input[type="submit"] {
+    background: red;
+    margin: 1rem;
+    padding: 1rem: 2rem;
+    border: 3px solid #a0f;
+    border-radius: 30px;
+    width: auto;
+    float: none;
+    box-shadow: 3px 5px 20px white;
+    
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    tramsition: 1s all;
+  }
+  
+  
